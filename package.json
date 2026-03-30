@@ -4,12 +4,15 @@
   "description": "Learning node.js",
   "main": "index.js",
   "scripts": {
-    "start": "nodemon index.js"
+    "start": "node index.js",
+    "dev": "nodemon index.js"
   },
   "author": "Nwankwo Michael",
-  "license": "ISC",
+  "license": "MIT",
   "dependencies": {
-    "nodemon": "^3.1.14",
     "slugify": "^1.6.8"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.14"
   }
 }
